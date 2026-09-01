@@ -3,7 +3,7 @@
 	"id": "blubs",
 	"version": "${version}",
 	"name": "Blubs",
-	"description": "Adds the Blubs from Dungeons II",
+	"description": "Adds the Blubs from Dungeons II.",
 	"authors": [
 		"alexis"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "Blubs License",
 	"icon": "assets/blubs/icon.png",
 	"environment": "*",
 	"entrypoints": {
