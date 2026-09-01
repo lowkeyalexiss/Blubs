@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "blubs",
+	"version": "${version}",
+	"name": "Blubs",
+	"description": "Adds the Blubs from Dungeons II",
+	"authors": [
+		"alexis"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/blubs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alexis.blubs.Blubs",
+			"net.alexis.blubs.common.entity.ModEntity"
+		],
+		"client": [
+			"net.alexis.blubs.client.BlubClient",
+			"net.alexis.blubs.common.entity.BlubsEntityClient"
+		],
+		"fabric-datagen": [
+          "net.alexis.blubs.datagen.BlubsDataGenerator"
+		]
+	},
+	"mixins": [
+		"blubs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

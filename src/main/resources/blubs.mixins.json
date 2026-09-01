@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.alexis.blubs.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+      "BlubSplashTextMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
