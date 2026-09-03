@@ -44,19 +44,15 @@ public class BlubEntityModel extends EntityModel<BlubEntityRenderState> {
         partdefinition.addOrReplaceChild("leftEar", CubeListBuilder.create().texOffs(8, 20)
                 .addBox(-8.0F, -2.0F, -1.0F, 3.0F, 4.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(9.0F, 12.0F, -2.0F));
 
-        // Front Left Leg
         partdefinition.addOrReplaceChild("frontLeftLeg", CubeListBuilder.create().texOffs(24, 24)
                 .addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, 24.0F, -4.0F));
 
-        // Back Left Leg
         partdefinition.addOrReplaceChild("backLeftLeg", CubeListBuilder.create().texOffs(16, 24)
                 .addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, 24.0F, 4.0F));
 
-        // Front Right Leg
         partdefinition.addOrReplaceChild("frontRightLeg", CubeListBuilder.create().texOffs(24, 20)
                 .addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(-4.0F, 24.0F, -4.0F));
 
-        // Back Right Leg
         partdefinition.addOrReplaceChild("backRightLeg", CubeListBuilder.create().texOffs(16, 20)
                 .addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(-4.0F, 24.0F, 4.0F));
 
